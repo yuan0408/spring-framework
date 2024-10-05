@@ -12,5 +12,6 @@ repositories {
 dependencies {
     compile(project(":spring-beans"))
     compile(project(":spring-core"))
+    compile(project(":spring-context"))
     testImplementation 'junit:junit:4.13.2'
 }
